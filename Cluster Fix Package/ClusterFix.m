@@ -1,7 +1,6 @@
 function [fixationstats] = ClusterFix(eyedat,samprate)
-% Copyright 2013 Seth Koenig (skoenig3@uw.edu), Buffalo Lab
-% Intellectual property owned by Emory University, all rights reserved.
-% For non-commercial use only.
+% Copyright 2013-2014 Seth Koenig (skoenig3@uw.edu) & Elizabeth Buffalo,
+% all rights reserved.
 %
 % Function detects periods of fixations and saccades using k-means
 % clustering. Code does not distinguish beteen saccades and micro-saccades.
